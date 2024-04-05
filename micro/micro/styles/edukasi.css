@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* bagian foto background */
+  .main {
+    font-family: Arial, sans-serif;
+    margin-bottom: 2rem;
+  }
+  
+  .navbar {
+    width: 100%;
+    margin: auto;
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #c68b59;
+  }
+  
+  .navbar-1 {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* bagian tulisan logo */
+  .logo {
+    font-size: 18px;
+    margin-bottom: 1%;
+    font-weight: bold;
+  }
+  
+  /* bagian posisi tulisan navbar */
+  .navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 1rem;
+  }
+  
+  /* bagian editing tulisan navbar */
+  .navbar ul li a {
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    color: black;
+  }
+  
+  .search-bar {
+    border: 1px;
+    overflow: hidden;
+    border-radius: 20px;
+  }
+  
+  #search-box {
+    padding: 10px;
+    border: none;
+    font-size: 16px;
+    width: 100%; /* Adjust width as needed */
+    background-color: white;
+  }
+  
+  #search-box:focus {
+    outline: white;
+  }
+  
+  button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 10px;
+  }
+  
+  .fa-search {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  /* bagian icon */
+  .icon {
+    display: flex;
+    width: 100%;
+  }
+  
+  h1 {
+    font-weight: 1000;
+  }
+  
+  .teks {
+    font-size: 15pt;
+    text-align: justify;
+    margin-top: 2rem;
+  }
+  
+  .teks1 {
+    margin-top: 3rem;
+    margin-left: 3rem;
+  }
+  
+  .isikonten2 {
+    margin-left: 2rem;
+  }
+  
+  .konten2 {
+    width: 100%;
+    margin: auto;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  
+  .button {
+    background-color: #b0926a;
+    width: 87%;
+    color: white;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+  }
+  
+  .kategori {
+      background-color: #b0926a;
+      width: 16%;
+      color: white;
+      text-align: center;
+      border: none;
+      border-radius: 10px;
+      font-size: 16px;
+      margin-left: 82%;
+  }
+  
+  .garis {
+      width: 95%;
+      align-items: center;
+      margin-left: 2rem;
+      border-color: black;
+  }
+  
+  
+  .poto {
+    margin: 25px;
+    align-items: center;
+  }
+  
